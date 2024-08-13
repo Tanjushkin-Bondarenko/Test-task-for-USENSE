@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <form id="userLogin">
+        <label for="login">Login
+        <input type="text" name="login" required id="login" />
+        </label>
+        <label for="password">Password
+        <input type="password" name="password" required minlength="8" id="password" >
+        </label>
+        <div style="display:block" id="showReliabilityPass">
+            <span style="display: none;"  id="easy"></span>
+            <span style="display: none;"  id="medium" ></span>
+            <span style="display: none;" id="strong"></span>
+        </div>
+        <button id="registrtion">Registrtion</button>
+    </form>
+    <script src="index.js"></script>
+
+</body>
+</html>
